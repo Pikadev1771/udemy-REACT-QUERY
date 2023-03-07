@@ -33,7 +33,7 @@ export function PostDetail({ post }) {
   if (isError) {
     return (
       <>
-        <h3>Ooooops!</h3>
+        <h3>Oooooops!</h3>
         <p>{error.toString()}</p>
       </>
     );
